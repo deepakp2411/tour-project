@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import { homeData } from "../constants/data";
 import "react-multi-carousel/lib/styles.css";
 import Banner from "./Banner";
+import SearchIcon from '@mui/icons-material/Search';
 
 const responsive = {
   desktop: {
@@ -23,9 +24,8 @@ const Home = () => {
   return (
     <>
       <div className="flex justify-center items-center mt-2 mb-3">
-        <h1 className="font-bold text-2xl text-green-900 uppercase">
-          Explore India
-        </h1>
+        <label htmlFor="search" className="cursor-pointer"><SearchIcon></SearchIcon></label>
+        <input type="search" className="p-5 m-2 w-[30vw] h-3 rounded border-none bg-slate-100 text-left" name="search" placeholder="Search your place..." />
       </div>
       <div className="mt-5 p-1 rounded bg-gray-200 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
         <Carousel
@@ -53,8 +53,8 @@ const Home = () => {
         </Carousel>
         ;
       </div>
-      <div className="mt-[10vh] mb-10 p-5 bg-[azure]">
-      <h2 className="text-center font-bold">The Incredeble India</h2>
+      <div className="mt-[10vh] mb-12 p-5 bg-[azure]">
+      <h2 className="text-center font-bold text-4xl italic">Lifelong memories just a <br /> few seconds away</h2>
         <Banner />
       </div>
     </>

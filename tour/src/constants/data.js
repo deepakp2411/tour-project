@@ -16,13 +16,17 @@ export const homeData = [
 
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHB1bmphYnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    url: "https://img.freepik.com/free-photo/ayutthaya-historical-park-wat-chaiwatthanaram-buddhist-temple-thailand_335224-1001.jpg?size=626&ext=jpg&ga=GA1.2.467371110.1662015156",
   },
 
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1620720970374-5b7e67e1e610?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aGltYWNoYWwlMjBwcmFkZXNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  }
+    url: "https://img.freepik.com/premium-vector/creative-illustration-guru-nanak-dev-with-golden-temple-happy-vaisakhi_30996-3011.jpg?size=626&ext=jpg&ga=GA1.2.467371110.1662015156",
+  },
+  {
+    id: 6,
+    url: "https://img.freepik.com/free-vector/vector-western-town-street-steam-train_107791-1780.jpg?size=626&ext=jpg&ga=GA1.2.467371110.1662015156",
+  },
 ];
 
 // banner //
@@ -52,5 +56,46 @@ export const banner = [
     id:5,
     title:"Visit",
     img:"https://img.freepik.com/free-vector/winter-landscape-with-ropeway-station-ski-cable-cars_1262-16849.jpg?size=626&ext=jpg&ga=GA1.2.467371110.1662015156"
+  },
+]
+
+
+
+export const tour = [
+  {
+    id:1,
+    title:'Tajmahal',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xinstra2.jpg.pagespeed.ic.-lvcMog2Kh.webp"
+  },
+  {
+    id:2,
+    title:'Dehradun',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xservices3.jpg.pagespeed.ic.5mY-dBjrRa.webp"
+  },
+  {
+    id:3,
+    title:'Varanasi',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xservices1.jpg.pagespeed.ic.Aq-IpiEePi.webp"
+  },
+  {
+    id:4,
+    title:'Himachal Pradesh',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xinstra3.jpg.pagespeed.ic.MnmzFtJhG4.webp"
+  },
+  {
+    id:5,
+    title:'Jammu',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xinstra1.jpg.pagespeed.ic.egI130yrTZ.webp"
+  },
+  {
+    id:6,
+    title:'Punjab',
+    price:"Rs 20000",
+    img:"https://preview.colorlib.com/theme/tralive/assets/img/gallery/xinstra5.jpg.pagespeed.ic.cvunh78lUF.webp"
   },
 ]

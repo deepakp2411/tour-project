@@ -27,7 +27,7 @@ const Banner = () => {
           swipeable={false}
           draggable={false}
           arrows={false}
-        //   showDots={true}
+          //   showDots={true}
           infinite={true}
           autoPlay={true}
           autoPlaySpeed={3000}
@@ -37,9 +37,10 @@ const Banner = () => {
           itemClass="carousel-item-padding-40-px"
         >
           {banner.map((data) => (
-            <div  key={data.id}>
+            <div key={data.id}>
               <img
-               src={data.img}
+              className="p-2 shadow-[0_30px_20px_-15px_rgba(0,0,0,0.3)]"
+                src={data.img}
                 alt="banner"
                 style={{ width: "100%", height: "200px" }}
               />
