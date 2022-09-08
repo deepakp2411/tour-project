@@ -54,7 +54,7 @@ const Home = () => {
         ;
       </div>
       <div className="mt-[10vh] mb-12 p-5 bg-[azure]">
-      <h2 className="text-center font-bold text-4xl italic">Lifelong memories just a <br /> few seconds away</h2>
+      <h2 className="text-center font-bold text-4xl italic text-black dark:text-white">Lifelong memories just a <br /> few seconds away</h2>
         <Banner />
       </div>
     </>
